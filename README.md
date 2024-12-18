@@ -34,7 +34,22 @@ Dự án này tập trung vào việc quản lý, phân tích và khai thác d�
               
   - Đưa ra gợi ý lựa chọn khối thi tối ưu dựa trên điểm số cao nhất.
 
-# 3. Đóng góp
+# 3. Cấu trúc bộ dữ liệu
+| Cột | Mô tả |
+|--------------|-----------------------------------------------------|
+| MaSBD | Mã số báo danh (8 chữ số: 2 chữ số đầu là mã vùng, ví dụ: 04, 33, 34). |
+| Toan | Điểm môn Toán. |
+| Van | Điểm môn Ngữ Văn. |
+| NgoaiNgu | Điểm môn Ngoại Ngữ. |
+| VatLy | Điểm môn Vật Lý. |
+| HoaHoc | Điểm môn Hóa Học. |
+| SinhHoc | Điểm môn Sinh Học. |
+| LichSu | Điểm môn Lịch Sử. |
+| DiaLy | Điểm môn Địa Lý. |
+| GDCD | Điểm môn Giáo Dục Công Dân. |
+
+
+# 4. Đóng góp
 
 Mọi đóng góp hoặc ý tưởng cải thiện dự án đều được hoan nghênh. 
 *Vui lòng gửi pull request hoặc liên hệ qua email: [cerise1501@example.com].*
