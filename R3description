@@ -1,0 +1,36 @@
+1. Module 1: Kiểm tra thí sinh có môn nào bị liệt hay không
+- Dựa trên điểm các môn thi, kiểm tra xem thí sinh có đủ điều kiện đỗ tốt nghiệp hay không. (các môn phải trên 1)
+
+2. Module 2: Xếp hạng thí sinh
+- Tính toán và xếp hạng Top10 thí sinh theo điểm từng khối. 
+
+3. Module 3: Tính tổng điểm theo từng khối giúp thí sinh dễ dàng chọn khối có điểm cao nhất để xét điểm vào đại học.
+- Xác định tổ hợp môn thi tương ứng cho mỗi khối:
+    Khối A: Toán, Vật lý, Hóa học
+    Khối A1: Toán, Vật lý, Tiếng Anh
+    Khối B: Toán, Hóa học, Sinh học
+    Khối C: Ngữ văn, Lịch sử, Địa lý
+    Khối D: Toán, Ngữ văn, Ngoại ngữ 
+
+4. Module 4: Đánh giá mức độ khó của từng môn thi trong 3 khu vực 
+- Thủ tục này được thiết kế để tính toán và đánh giá mức độ khó của từng môn thi trong mỗi tỉnh bằng cách so sánh tỷ lệ thí sinh đạt điểm cao và thấp. Mục tiêu của thủ tục là giúp phân tích mức độ khó của các môn thi trong từng khu vực và hỗ trợ trong việc điều chỉnh phương pháp giảng dạy hoặc thi cử. Cụ thể:
+    Điểm thấp: Được xác định là điểm dưới 5.
+    Điểm cao: Được xác định là điểm từ 7 trở lên.
+Dựa trên tỷ lệ thí sinh đạt điểm thấp và cao, thủ tục sẽ đánh giá môn thi nào khó hơn trong mỗi tỉnh.
+
+5. Module 5: Xếp hạng khu vực có điểm trung bình cao nhất cho mỗi môn thi
+- Thủ tục này tính điểm trung bình của các thí sinh theo từng khu vực và môn thi, đồng thời xếp hạng khu vực có điểm trung bình cao nhất cho mỗi môn thi, giúp đánh giá chất lượng đào tạo theo từng khu vực.Kết quả cung cấp thông tin về sự khác biệt chất lượng đào tạo giữa các khu vực, hỗ trợ phân tích và cải thiện chất lượng giáo dục.
+
+6. Module 6: Phân tích tỷ lệ thí sinh đạt điểm tuyệt đối (10) theo từng môn trong 3 khu vực 
+
+7. Module 7: Xác định điểm thi cao nhất và thấp nhất của mỗi môn.
+- Thủ tục này xác định điểm thi cao nhất và thấp nhất trong mỗi môn, cùng với số lượng học sinh đạt điểm tối đa và tối thiểu. Kết quả giúp nhận diện các điểm đặc biệt trong dữ liệu, đánh giá mức độ phân tán của điểm thi và hỗ trợ phân tích chất lượng học sinh qua từng môn học.
+
+8. Module 8: Thống kê số lượng thí sinh theo khối thi
+- Tạo một thủ tục để thống kê số lượng thí sinh tham gia từng khối thi, giúp theo dõi xu hướng lựa chọn khối thi của các thí sinh.
+
+9. Module 9: Đánh giá sự phân bố điểm theo từng khối thi và khu vực
+- Module này sẽ đánh giá sự phân bố điểm thi trong từng khối thi và khu vực, phân tích tỷ lệ thí sinh đạt các mức điểm khác nhau (ví dụ: 0-5 điểm, 5-7 điểm, 7-9 điểm, 9-10 điểm).
+
+10. Module 10: Xếp Hạng Thí Sinh Theo Khu Vực và Khối Thi
+- Module này thực hiện việc xếp hạng thí sinh trong kỳ thi THPT dựa trên khu vực và khối thi mà họ tham gia với mục đích là giúp quản lý và theo dõi kết quả thi của thí sinh theo khu vực và khối thi, từ đó hiểu rõ hơn về sự phân bổ điểm thi giữa các khu vực và khối thi khác nhau.
