@@ -5,10 +5,10 @@ import pyodbc
 from io import StringIO
 
 # Cấu hình thông tin kết nối tới SQL Server
-server = 'CHANG\MYSQL'  # Địa chỉ SQL Server của bạn
+server = '...'  # Địa chỉ SQL Server của bạn
 database = 'DiemThi'  # Tên cơ sở dữ liệu
-username = 'sa'  # Tên đăng nhập
-password = '001140'  # Mật khẩu
+username = '...'  # Tên đăng nhập
+password = '...'  # Mật khẩu
 driver = '{ODBC Driver 17 for SQL Server}'
 
 # Tạo kết nối tới SQL Server
